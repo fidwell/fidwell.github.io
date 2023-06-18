@@ -21,3 +21,23 @@
 body {
     font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(207, 162, 99);
+}
+
+h2 {
+    filter: hue-rotate(20deg);
+}
+
+h3 {
+    filter: hue-rotate(40deg);
+}
+
+h4 {
+    filter: hue-rotate(60deg);
+}
+
+h5 {
+    filter: hue-rotate(80deg);
+}
