@@ -1,0 +1,23 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --link-color: rgb(110, 182, 234);
+        --link-hover-color: rgb(151, 201, 237);
+    }
+
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    a[href] {
+        color: var(--link-color);
+    }
+
+    a[href]:hover {
+        color: var(--link-hover-color);
+    }
+}
+
+body {
+    font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+}
