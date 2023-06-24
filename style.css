@@ -1,7 +1,14 @@
+:root {
+    --text-size: 12pt;
+    --icon-size: 16pt;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --link-color: rgb(110, 182, 234);
         --link-hover-color: rgb(151, 201, 237);
+        --table-border: hsl(0deg 0% 25%);
+        --icon-filter: invert(100%);
     }
 
     body {
@@ -18,8 +25,16 @@
     }
 }
 
+@media (prefers-color-scheme: light) {
+    :root {
+        --table-border: hsl(0deg 0% 75%);
+        --icon-filter: invert(0%);
+    }
+}
+
 body {
     font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+    font-size: var(--text-size);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,4 +55,42 @@ h4 {
 
 h5 {
     filter: hue-rotate(80deg);
+}
+
+table, td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--table-border);
+    border-collapse: collapse;
+    font-size: var(--text-size);
+}
+
+td {
+    padding: 9pt;
+}
+
+.t-dmkp>tbody>tr>td:nth-child(n+2) {
+    text-align: center;
+}
+
+thead {
+    font-weight: bold;
+}
+
+.link-gd {
+    content: url("./static/google-drive.svg");
+    height: var(--icon-size);
+    filter: var(--icon-filter);
+}
+
+.link-ne {
+    content: url("./static/new-element.svg");
+    height: var(--icon-size);
+    filter: var(--icon-filter);
+}
+
+.link-yt {
+    content: url("./static/youtube.svg");
+    height: var(--icon-size);
+    filter: var(--icon-filter);
 }
