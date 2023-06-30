@@ -57,7 +57,7 @@ h5 {
     filter: hue-rotate(80deg);
 }
 
-table, td {
+table, th, td {
     border-width: 1px;
     border-style: solid;
     border-color: var(--table-border);
@@ -65,16 +65,12 @@ table, td {
     font-size: var(--text-size);
 }
 
-td {
+th, td {
     padding: 9pt;
 }
 
-.t-dmkp>tbody>tr>td:nth-child(n+2) {
+.t-icons>tbody>tr>td:nth-child(n+2) {
     text-align: center;
-}
-
-thead {
-    font-weight: bold;
 }
 
 .link-gd {
