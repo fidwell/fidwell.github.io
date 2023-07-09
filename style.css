@@ -35,6 +35,10 @@
 body {
     font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
     font-size: var(--text-size);
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    max-width: 40em;
 }
 
 h1, h2, h3, h4, h5, h6 {
