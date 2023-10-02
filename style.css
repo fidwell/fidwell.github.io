@@ -100,3 +100,8 @@ th, td {
     height: var(--icon-size);
     filter: var(--icon-filter);
 }
+
+.tag-with {
+    font-size: small;
+    opacity: 80%;
+}
