@@ -77,6 +77,12 @@ th, td {
     text-align: center;
 }
 
+.link-cloud {
+    content: url("./static/download-cloud.svg");
+    height: var(--icon-size);
+    filter: var(--icon-filter);
+}
+
 .link-gd {
     content: url("./static/google-drive.svg");
     height: var(--icon-size);
