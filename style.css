@@ -41,16 +41,22 @@ body {
     max-width: 40em;
 }
 
+.banner {
+    max-width: 40em;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: rgb(207, 162, 99);
 }
 
 h2 {
     filter: hue-rotate(20deg);
+    padding-top: 3ex;
 }
 
 h3 {
     filter: hue-rotate(40deg);
+    padding-top: 1ex;
 }
 
 h4 {
