@@ -84,6 +84,14 @@ hr {
     margin: 4ex;
 }
 
+footer {
+    text-align: center;
+}
+
+footer hr {
+    margin-top: 12ex;
+}
+
 table,
 th,
 td {
