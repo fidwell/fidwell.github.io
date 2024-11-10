@@ -1,6 +1,7 @@
 :root {
     --text-size: 12pt;
     --icon-size: 16pt;
+    --body-width: 40em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,17 +33,27 @@
     }
 }
 
+@media (max-width: 400px) {
+    footer,
+    header,
+    main {
+        padding: 1em;
+    }
+}
+
 body {
     font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
     font-size: var(--text-size);
     margin-left: auto;
     margin-right: auto;
     line-height: 1.6;
-    max-width: 40em;
+    max-width: var(--body-width);
 }
 
 .banner {
-    max-width: 40em;
+    max-width: 100vw;
+    overflow: hidden;
+    width: var(--body-width);
 }
 
 h1,
