@@ -92,15 +92,11 @@ hr {
     background-image: linear-gradient(to right, #1f1f1f, #c0c0c0, #1f1f1f);
     border: 0;
     height: 1px;
-    margin: 4ex;
+    margin: 10ex 6ex 4ex 6ex;
 }
 
 footer {
     text-align: center;
-}
-
-footer hr {
-    margin-top: 12ex;
 }
 
 table,
